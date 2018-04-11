@@ -1,13 +1,14 @@
 {
-  "name": "reactish-boilerplate",
+  "name": "book-sorter",
   "version": "0.1.0",
-  "description": "A Webpack, React, Redux and Sass (and more) boilerplate",
+  "description": "Sort books fetched from Google Books.",
   "private": true,
   "scripts": {
     "start": "clear && webpack-dev-server",
     "clean": "rimraf build",
     "lint": "eslint src || true",
-    "test": "clear && jest ./tests --setupTestFrameworkScriptFile=raf/polyfill",
+    "test": "clear && jest ./src --setupTestFrameworkScriptFile=raf/polyfill",
+    "test-watch": "clear && jest --watchAll ./src --setupTestFrameworkScriptFile=raf/polyfill",
     "build": "npm run clean && webpack --config webpack.production.config.js --progress --profile --colors"
   },
   "author": "Patrick Davidson",
