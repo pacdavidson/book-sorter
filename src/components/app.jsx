@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Provider } from 'react-redux'
-import '../base-styles/index.scss'
+import configureStore from '../store'
 
 const store = configureStore({})
 
