@@ -1,0 +1,23 @@
+// Mixins
+
+@mixin button() {
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding: 0.5rem 1rem;
+    font-family: $font_sans-serif;
+    background: #fff;
+    border: 1px solid $color_light-gray-border;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+    color: darken($color_light-gray, 25%);
+
+	&:hover {
+		cursor: pointer;
+        background: lighten($color_green, 7%);
+        color: #fff;
+	}
+}
+
+:focus {
+    outline: none;
+}
