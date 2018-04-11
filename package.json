@@ -12,7 +12,7 @@
     "build": "npm run clean && webpack --config webpack.production.config.js --progress --profile --colors"
   },
   "author": "Patrick Davidson",
-  "homepage": "https://github.com/pacdavidson/reactish-boilerplate",
+  "homepage": "https://github.com/pacdavidson/book-sorter",
   "devDependencies": {
     "autoprefixer": "^7.2.5",
     "babel-core": "^6.26.0",
