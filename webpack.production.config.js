@@ -16,8 +16,7 @@ module.exports = {
   context: resolve(__dirname, 'src'),
 
   entry: [
-    './',
-    './scss/app'
+    './'
   ],
 
   output: {
@@ -53,12 +52,7 @@ module.exports = {
   },
 
   resolve: {
-    extensions: ['.js', '.jsx', '.scss'],
-    alias: {
-      variables: resolve(__dirname, 'src/scss/utils/variables'),
-      mixins: resolve(__dirname, 'src/scss/utils/mixins'),
-      respond: resolve(__dirname, 'src/scss/utils/respond')
-    }
+    extensions: ['.js', '.jsx', '.scss']
   },
 
   plugins: [
